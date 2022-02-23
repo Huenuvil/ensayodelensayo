@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script defer src="logica1.js"></script>
+</head>
+<body>
+    <h1>FORMULARIO DE REGISTRO DE INGRESO</h1>
+
+    <label for="nombre">Nombre</label>
+<input id="nombre" type="text" name="nombre" placeholder="Ingrese Nombre y Apellido">
+
+
+<label for="edad">Edad</label>
+<input id="edad" type="number" name="edad" placeholder="Ingrese su Edad">
+
+<label for="peso">Peso</label>
+<input id="peso" type="number" name="peso" placeholder="Ingrese su Peso"><br>
+
+<label for="condicsalud">Condición de Salud</label>
+<input id="condicsalud" type="text" name="condicsalud" placeholder="Ej: Saludable / Enfermo">
+
+<label for="alergias">Alergias</label>
+<input type="text" name="alergias" id="alergias" placeholder="Si / No">
+
+<input id="boton" type="submit" onclick="crearPersona()">
+<input id="reset" type="button" onclick="limpiarFormulario()" value="Limpiar">
+</body>
+</html>
+
